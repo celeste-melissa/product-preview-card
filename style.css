@@ -1,0 +1,138 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    display: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    margin-top: 10vh;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.card-container {
+    background-color: white;
+    width: 350px;
+    margin-top: 10vh;
+    border-radius: 0 10px 10px 0;
+
+}
+.title{
+margin-top: 30px;
+margin-left: 25px;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+font-size: 1em/*15px*/;
+line-height: 15px;
+letter-spacing: 5px;
+color: #6C7289;
+
+}
+
+.header {
+    margin-left: 27px;
+    margin-top: 30px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 40px;
+    color: #000000;
+}
+.info {
+    margin-left: 30px; ;
+    margin-top: 10px;
+    font-family: Courier;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6C7289;
+
+}
+
+.discount {
+    
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight:600;
+    margin-right: 10%;
+    margin-top: 8px;
+    padding-left: 50px;
+    color: #3D8168;
+}
+.original-price {
+    font-size: 18px;
+    font-family: monospace;
+    margin-top: 12px;
+    color: #6C7289;
+    
+}
+.price {
+    display: inline-flex;
+}
+
+
+
+button {
+    margin-left: 45px;
+    margin-top: -16px;
+    /*experimenting with button sizes*/
+    display: block;
+    width: 70%;
+    height: 10%;
+    border: none;
+    background-color: #3D8168;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #1A4032;
+}
+.attribution {
+    position: absolute;
+    bottom: 30px;
+}
+
+@media all and (max-width: 500px) {
+    body {
+        margin: -14px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    img {
+        margin-bottom: -100px;
+        margin-left: 30px;
+        height:   auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-container {
+
+        margin-left: 30px;
+
+        border-radius: 0 0 10px 10px;
+    }
+    
+    button {
+        margin-left: 45px;
+        margin-bottom: 60px;
+        /*experimenting with button sizes*/
+        display: block;
+        width: 70%;
+        height: 40px;
+
+    }
+    .attribution {
+        position: relative;
+        bottom: -4px;
+        font-size: 14px;
+    }
+
+}
+
